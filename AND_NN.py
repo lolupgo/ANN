@@ -1,5 +1,5 @@
 #FIRST NN
-#AND TT
+#OR gate TT
 truth_table = {
     ( 1, 1) : 1,
     ( 0, 1) : 1,
