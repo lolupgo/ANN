@@ -47,11 +47,15 @@ w2 = 1
 bias = 1
 
 #starting the training
-for i in range(0,epochs):
-    for j in range(len(inputs)):
+for epoch in range(0,epochs):
+    for i in range(len(inputs)):
 
-        x1,x2 = inputs[j]
+        x1,x2 = inputs[i]
+        t = targets[i]
 
+        #calculating agregation
         y = agregation_fxn(w1,x1,w2,x2,bias)
 
-        if 
+        #Calculate Error for each input
+        error = 
+        
