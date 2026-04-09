@@ -31,7 +31,7 @@ def agregation_fxn(w1,x1,w2,x2,bias):
     return w1*x1 + w2*x2 + bias
 
 
-#activation fxn
+#activation fxn only used while testing 
 def activation_fxn(y):
     threshold=0
     if(y>=threshold):
@@ -57,5 +57,6 @@ for epoch in range(0,epochs):
         y = agregation_fxn(w1,x1,w2,x2,bias)
 
         #Calculate Error for each input
-        error = 
+        error = t-y
+        
         
